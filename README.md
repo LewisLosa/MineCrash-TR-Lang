@@ -1,7 +1,9 @@
-# MineCrash
+# MineCrash - Türkçe Sürümü
 
-Invite: https://discord.com/oauth2/authorize?client_id=990855990897418270&scope=bot&permissions=52288  
-Discord: https://discord.gg/wVCSqV7ptB
+Türkçe Bot Davet Bağlantısı: Yakında!
 
-This is a discord bot that aims to solve all your crash/errors you encounter on your server. It works by checking for certain words using regex then extracting relevant info.
+Orjinal Bot Davet Bağlantısı: https://discord.com/oauth2/authorize?client_id=990855990897418270&scope=bot&permissions=52288
 
+Orjinal Discord Bağlantısı: https://discord.gg/wVCSqV7ptB
+
+Bu, sunucunuzda karşılaştığınız tüm çökme/hatalarınızı çözmeyi amaçlayan bir discord botudur. Normal ifadeyi kullanarak belirli kelimeleri kontrol ederek ve ardından ilgili bilgileri çıkararak çalışır.
