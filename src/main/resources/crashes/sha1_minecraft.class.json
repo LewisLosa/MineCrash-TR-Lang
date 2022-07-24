@@ -1,9 +1,9 @@
 {
-  "error": "Corrupted minecraft.jar",
+  "error": "Bozuk server.jar",
   "matches": [
     "java.lang.SecurityException: SHA1 digest error",
     "Minecraft.class"
   ],
   "arguments": {},
-  "solution": "It seems your minecraft.jar file may be corrupted. Try redownloading your instance. If this doesn't work try google."
+  "solution": "Görünüşe göre server.jar dosyanız bozulmuş olabilir. Örneğinizi yeniden indirmeyi deneyin. Bu işe yaramazsa google'ı deneyin."
 }

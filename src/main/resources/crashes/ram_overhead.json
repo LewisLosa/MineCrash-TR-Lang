@@ -1,8 +1,8 @@
 {
-  "error": "Not enough ram",
+  "error": "Yetersiz bellek",
   "matches": [
     "java.lang.OutOfMemoryError: GC overhead limit exceeded"
   ],
   "arguments": {},
-  "solution": "Your program has run out of ram, try increasing it."
+  "solution": "Sunucudaki ram miktarını arttırmayı deneyin."
 }

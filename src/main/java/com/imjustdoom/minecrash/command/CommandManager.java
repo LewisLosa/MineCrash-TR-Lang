@@ -54,13 +54,13 @@ public class CommandManager extends ListenerAdapter {
                 if (name.equalsIgnoreCase(strCommand)) {
                     if (command.getRoles().length > 0) for (String role : command.getRoles()) {
                         if (!event.getMember().getRoles().contains(event.getGuild().getRoleById(role))) {
-                            event.getMessage().reply("You don't have permission to use this command.").queue();
+                            event.getMessage().reply("Bu komutu kullanmak için yetkin yok.").queue();
                             continue COMMAND;
                         }
                     }
                     if (command.getUsers().length > 0) for (String user1 : command.getUsers()) {
                         if (!event.getAuthor().getId().equals(user1)) {
-                            event.getMessage().reply("You don't have permission to use this command.").queue();
+                            event.getMessage().reply("Bu komutu kullanmak için yetkin yok.").queue();
                             continue COMMAND;
                         }
                     }

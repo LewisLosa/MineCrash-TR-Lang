@@ -1,10 +1,10 @@
 {
-  "error": "World session.lock error",
+  "error": "Dünya için session.lock hatası",
   "matches": [
     "Failed to start the minecraft server",
     "session.lock: already locked",
     "possibly by other Minecraft instance?"
   ],
   "arguments": {},
-  "solution": "An instance of the server may already be running, or the server may be stuck in a locked state. Try restarting the server, or if the problem persists, try restarting the computer."
+  "solution": "Sunucunun bir örneği zaten çalışıyor olabilir veya sunucu kilitli durumda kalmış olabilir. Sunucuyu yeniden başlatmayı deneyin veya sorun devam ederse bilgisayarı yeniden başlatmayı deneyin."
 }

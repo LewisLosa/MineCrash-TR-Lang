@@ -50,7 +50,7 @@ public class Main {
             String data = Files.readString(Path.of("config.json"));
             config = new Gson().fromJson(data, Config.class);
         } catch (IOException e) {
-            System.out.println("Unable to load config. Shutting down.");
+            System.out.println("Konfigürasyon dosyaları yüklenemedi. Kapatılıyor...");
             e.printStackTrace();
             System.exit(0);
         }
@@ -59,7 +59,7 @@ public class Main {
             String data = Files.readString(Path.of("stats.json"));
             botStats = new Gson().fromJson(data, BotStats.class);
         } catch (IOException e) {
-            System.out.println("Unable to load stats. Shutting down.");
+            System.out.println("İstatistikler dosyaları yüklenemedi. Kapatılıyor...");
             e.printStackTrace();
             System.exit(0);
         }
@@ -76,7 +76,7 @@ public class Main {
 
         jda.awaitReady();
 
-        jda.getPresence().setActivity(Activity.playing("Solving crash reports!"));
+        jda.getPresence().setActivity(Activity.playing("Hata raporları çözülüyor!"));
     }
 
     public void loadErrorFiles() throws IOException {

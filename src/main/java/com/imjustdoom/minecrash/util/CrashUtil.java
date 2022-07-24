@@ -11,9 +11,9 @@ public class CrashUtil {
     public static EmbedBuilder getCrashEmbed(String solution, String crash) {
         EmbedBuilder embed = new EmbedBuilder();
         embed.setTitle(crash);
-        embed.addField("Solution", solution, false);
+        embed.addField("Çözüm", solution, false);
         embed.setColor(Color.GREEN);
-        embed.setFooter("Discord invite: " + Main.getInstance().getConfig().getServer());
+        embed.setFooter("Discord davet bağlantısı: " + Main.getInstance().getConfig().getServer());
         return embed;
     }
 }

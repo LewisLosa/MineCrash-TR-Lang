@@ -1,5 +1,5 @@
 {
-  "error": "Can't load the yaml file",
+  "error": "yaml dosyası yüklenemiyor",
   "matches": [
     "Unable to load file",
     "org.bukkit.configuration.InvalidConfigurationException"
@@ -7,5 +7,5 @@
   "arguments": {
     "0": "Unable to load file '([^']+)"
   },
-  "solution": "Unable to load the file %0. The file syntax seems to be invalid, try running it though a yaml validator like https://codebeautify.org/yaml-validator"
+  "solution": "%0 dosyası yüklenemedi. Dosya sözdizimi geçersiz görünüyor, https://codebeautify.org/yaml-validator gibi bir yaml doğrulayıcı ile çalıştırmayı deneyin."
 }

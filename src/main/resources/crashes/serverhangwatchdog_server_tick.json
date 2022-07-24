@@ -1,5 +1,5 @@
 {
-  "error": "ServerHangWatchdog killed the server",
+  "error": "ServerHangWatchdog sunucuyu kapattı",
   "matches": [
     "ServerHangWatchdog detected that a single server tick took"
   ],

@@ -1,9 +1,9 @@
 {
-  "error": "A mod is missing",
+  "error": "Bilinmeyen mod.",
   "matches": [
     "net.minecraftforge.fml.common.MissingModsException"
   ],
   "arguments": {
   },
-  "solution": "You are missing a mod."
+  "solution": "Bilinmeyen mod."
 }

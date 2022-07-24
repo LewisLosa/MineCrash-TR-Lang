@@ -1,5 +1,5 @@
 {
-  "error": "Incorrect Java version",
+  "error": "Hatalı java sürümü",
   "matches": [
     "class file version",
     "class file versions up to"
@@ -9,5 +9,5 @@
     "1": "class file versions up to ([0-9]?[0-9]\\.?[0-9])",
     "2": "Could not load 'plugins\\\\([^']+)"
   },
-  "solution": "Try updating your Java version to %0 or higher, your current version is %1. The plugin %2 was compiled with a later version of Java than you are using.\nHere is a list of the class number and the version it is for <https://stackoverflow.com/questions/9170832/list-of-java-class-file-format-major-version-numbers>"
+  "solution": "Java sürümünüzü %0 veya daha yüksek bir sürüme güncellemeyi deneyin, mevcut sürümünüz %1."
 }
